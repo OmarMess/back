@@ -43,6 +43,5 @@ public class EntretienTechnique {
 	private Statut statut_entretien;
 	@ManyToOne
 	private Candidat candidat; 
-	
 
 }
