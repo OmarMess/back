@@ -35,7 +35,7 @@ public class EntretienTechnique {
 	private String motivation;
 	private String commentaire ;
 	private String conclusion_quest;
-	//private Avis avis_tec;
+	private Avis avis_tec;
 	private String justif_avis;
 	@Lob
 	private Blob rapportTech;

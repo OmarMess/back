@@ -2,6 +2,7 @@ package com.cgi.model;
 
 import java.sql.Blob;
 import java.util.List;
+import com.cgi.model.*;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -39,4 +40,12 @@ public class Candidat {
 	private Profil profil;
 	@OneToMany
 	private List<CompetenceTechnique> competencesTech;
+	@OneToMany
+	private List<Formation> formations;
+	@OneToMany
+	private List<Certificat> certificats;
+	@OneToMany
+	private List<EntretienManager> entretiens_manag;
+	@OneToMany
+	private List<EntretienTechnique> entretiens_tec;
 }

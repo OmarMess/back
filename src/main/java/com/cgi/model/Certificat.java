@@ -21,6 +21,6 @@ public class Certificat {
 	private String intitule;
 	private String lien_certif;
 	@ManyToOne
-	private Candidat candidat; 
+	private Candidat candidat;
 
 }
