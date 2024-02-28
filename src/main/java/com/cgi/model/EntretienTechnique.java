@@ -11,6 +11,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Lob;
+import jakarta.persistence.ManyToOne;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -40,6 +41,8 @@ public class EntretienTechnique {
 	private Blob rapportTech;
 	@Enumerated(EnumType.STRING)
 	private Statut statut_entretien;
+	@ManyToOne
+	private Candidat candidat; 
 	
 
 }
