@@ -20,7 +20,7 @@ public class User {
 	private Long id;
 	private String mail;
 	private String password;
-	private Role role ;
+	//private Role role ;
 	
 
 }
