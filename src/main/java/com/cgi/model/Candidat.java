@@ -38,5 +38,5 @@ public class Candidat {
 	private Blob cv;
 	private Profil profil;
 	@OneToMany
-	private List<CompetenceTechnique> competencesTech;s
+	private List<CompetenceTechnique> competencesTech;
 }
