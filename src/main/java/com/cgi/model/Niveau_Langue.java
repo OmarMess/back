@@ -8,5 +8,4 @@ public enum Niveau_Langue {
 	B2, 
 	C1,
 	C2
-
 }

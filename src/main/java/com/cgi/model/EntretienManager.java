@@ -40,7 +40,9 @@ public class EntretienManager {
 		private String points_faibles;
 		@Lob
 		private Blob rapport_manager;
+		@Enumerated(EnumType.STRING)
 		private Statut statut_entretien;
+		@Enumerated(EnumType.STRING)
 		private Avis avis_manager;
 		private String justif_avis;
 		@ManyToOne

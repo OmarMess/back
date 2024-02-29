@@ -5,6 +5,8 @@ import java.util.List;
 import com.cgi.model.*;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -33,10 +35,13 @@ public class Candidat {
 	private String experience;
 	private float nbrAneeExp;
 	private String comp_manag;
+	@Enumerated(EnumType.STRING)
 	private Niveau_Langue niv_franc;
+	@Enumerated(EnumType.STRING)
 	private Niveau_Langue niv_ang;
 	@Lob
 	private Blob cv;
+	@Enumerated(EnumType.STRING)
 	private Profil profil;
 	@OneToMany
 	private List<CompetenceTechnique> competencesTech;

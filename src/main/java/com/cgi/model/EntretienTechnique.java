@@ -37,6 +37,7 @@ public class EntretienTechnique {
 	private String motivation;
 	private String commentaire ;
 	private String conclusion_quest;
+	@Enumerated(EnumType.STRING)
 	private Avis avis_tec;
 	private String justif_avis;
 	@Lob
