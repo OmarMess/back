@@ -7,5 +7,5 @@ public enum Profil {
 	PHP,
 	FULLSTUCK ,
 	BACKEND,
-	FRONEND,
+	FRONEND
 }

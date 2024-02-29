@@ -45,4 +45,6 @@ public class EntretienManager {
 		private String justif_avis;
 		@ManyToOne
 		private Candidat candidat; 
+		@ManyToOne
+		private UserApp manager;
 }
