@@ -17,8 +17,8 @@ import lombok.NoArgsConstructor;
 
 
 
-@NoArgsConstructor
-@AllArgsConstructor
+//@NoArgsConstructor
+//@AllArgsConstructor
 @Service
 public class UserService {
 	
