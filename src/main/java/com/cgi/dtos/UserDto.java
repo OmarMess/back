@@ -5,8 +5,8 @@ import com.cgi.model.Role;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
 
-public class UserDto {
-	private Long id;
+public record UserDto(String mail, @Enumerated(EnumType.STRING)Role role) {}
+	/*private Long id;
 	private String mail;
 	@Enumerated(EnumType.STRING)
 	private Role role;
@@ -30,3 +30,4 @@ public class UserDto {
 	}
 	
 }
+*/
