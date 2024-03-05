@@ -5,7 +5,7 @@ public enum Profil {
 	
 	JAVA,
 	PHP,
-	FULLSTUCK ,
+	FULLSTUCK,
 	BACKEND,
 	FRONTEND
 }
