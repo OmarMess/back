@@ -43,7 +43,7 @@ public class EntretienTechnique {
 	@Lob
 	private Blob rapportTech;
 	@Enumerated(EnumType.STRING)
-	private Statut statut_entretien;
+	private Statut statutEntretien;
 	@ManyToOne
 	private Candidat candidat; 
 	@ManyToMany
