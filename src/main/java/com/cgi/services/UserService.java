@@ -10,13 +10,13 @@ import com.cgi.mappers.UserMapper;
 import com.cgi.model.UserApp;
 import com.cgi.repositories.UserRepository;
 
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
+//import lombok.AllArgsConstructor;
+//import lombok.NoArgsConstructor;
 
 
 
-@NoArgsConstructor
-@AllArgsConstructor
+//@NoArgsConstructor
+//@AllArgsConstructor
 @Service
 public class UserService {
 	
