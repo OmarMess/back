@@ -25,12 +25,9 @@ public class UserController {
 	private UserService userService;
 	
 	@PostMapping("/login")
-	public ResponseEntity<UserDto> login(@RequestBody UserRequest userRequest) {
+	public UserDto login(@RequestBody UserRequest userRequest) {
 		UserDto user = userService.findByMailAndPassword(userRequest.getMail(), userRequest.getPassword());
-		if(user != null)
-			return ResponseEntity.ok(user);
-		else  
-			return ResponseEntity.notFound().build();
+		return user;
 	}
 	
 	

@@ -16,5 +16,12 @@ public class BusinessException extends RuntimeException {
         this.error=errorDto;
     }
 
+	
+    
+    
+
+
+    
+
    
 }
