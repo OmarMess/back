@@ -24,5 +24,4 @@ public class TecInterviewController {
     public List<EntretienTechnique> findTecInterviewByStatus(@PathVariable String status) {
         return tecInterviewService.findTecInterviewByStatus(status);
     }
-
 }

@@ -10,3 +10,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 public interface EntretienTechniqueRepository extends JpaRepository<EntretienTechnique, Long>{
     List<EntretienTechnique> findBystatutEntretien(Statut statutEntretien);
 }
+
+
+
+
+

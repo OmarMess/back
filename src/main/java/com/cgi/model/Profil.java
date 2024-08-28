@@ -1,11 +1,9 @@
 package com.cgi.model;
 
 public enum Profil {
-
-	
 	JAVA,
 	PHP,
-	FULLSTUCK,
+	FULLSTACK,
 	BACKEND,
 	FRONTEND
 }

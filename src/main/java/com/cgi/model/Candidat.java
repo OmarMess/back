@@ -1,4 +1,4 @@
-package com.cgi.model;
+	package com.cgi.model;
 
 import java.sql.Blob;
 import java.util.List;

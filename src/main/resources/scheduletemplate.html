@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Scheduled</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .header img {
+            max-height: 50px;
+            margin-right: 20px;
+        }
+        .title {
+            font-size: 28px;
+            color: red;
+            margin-top: 0;
+        }
+        .content {
+            margin-top: 20px;
+        }
+        .content p {
+            margin: 10px 0;
+        }
+        .highlight {
+            font-weight: bold;
+            color: red;
+        }
+        .footer {
+            margin-top: 30px;
+            padding-top: 10px;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            font-size: 12px;
+            color: #777;
+        }
+        .details {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        .details span.label {
+            font-weight: bold;
+            color: black;
+        }
+        .details span.value {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="cid:logo" alt="Company Logo"><br><br>
+            <div class="title">Interview Scheduled</div>
+        </div>
+        <div class="content">
+            <p>Dear <span class="highlight">{{evaluatorName}}</span>,</p>
+            <p>You have a new interview scheduled. Here are the details:</p>
+            <div class="details">
+                <p><span class="label">Candidate Name:</span> <span class="value">{{candidateName}}</span></p>
+                <p><span class="label">Interview Date:</span> <span class="value">{{interviewDate}}</span></p>
+                <p><span class="label">Meeting Link:</span> <span class="value">{{meetingLink}}</span></p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>© 2024 CGI. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>

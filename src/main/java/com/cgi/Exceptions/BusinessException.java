@@ -15,13 +15,10 @@ public class BusinessException extends RuntimeException {
         super(); 
         this.error=errorDto;
     }
-
-	
     
-    
+    public ErrorDto getError() {
+    	return error;
+    }
 
-
-    
-
-   
 }
+

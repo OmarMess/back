@@ -22,7 +22,7 @@ public class CandidatService {
 
 		String[] profils = Arrays.stream(Profil.values()).map(Enum::name).toArray(String[]::new);
 
-		if (!isValidProfil(profile, Profil.FRONTEND.toString(), Profil.BACKEND.toString(), Profil.FULLSTUCK.toString(),
+		if (!isValidProfil(profile, Profil.FRONTEND.toString(), Profil.BACKEND.toString(), Profil.FULLSTACK.toString(),
 				Profil.JAVA.toString(), Profil.PHP.toString())) {
 
 			// TODO
